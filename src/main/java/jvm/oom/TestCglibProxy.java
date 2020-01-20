@@ -7,6 +7,7 @@ import org.springframework.cglib.proxy.MethodProxy;
 import java.lang.reflect.Method;
 
 /**
+ * 运行时可设置虚拟机参数为：
  * VM Args：-XX:PermSize=10M -XX:MaxPermSize=10M(JDK6.0)
  * VM Args: -XX:MetaspaceSize=10M -XX:MaxMetaspaceSize=10M(JDK8.0)
  */

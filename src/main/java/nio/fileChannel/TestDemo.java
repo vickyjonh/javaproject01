@@ -12,7 +12,9 @@ import java.nio.channels.FileChannel;
 import java.nio.channels.ServerSocketChannel;
 import java.nio.channels.SocketChannel;
 
-
+/**
+ * NIO是基于通道（Channel）和缓冲区（Buffer）进行操作，数据总是从通道读取到缓冲区中，或者从缓冲区写入到通道中
+ */
 public class TestDemo {
 	@Test
 	public void write() throws Exception{

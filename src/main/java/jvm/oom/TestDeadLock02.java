@@ -5,6 +5,10 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
+/**
+ * jstack 用于生成java虚拟机当前时刻的线程快照
+ * 执行 jstack -l 22345 ，检测到死锁问题
+ */
 class SyncTask02 implements Runnable {
     private List<Integer> from;
     private List<Integer> to;

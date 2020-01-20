@@ -1,10 +1,9 @@
 package jvm.loader;
 
 /**
- * @ClassName TestClassLoader01
- * @Description
- * @Author: guxiao
- * @Date: 2019/9/2 10:08
+ * 1）通过ClassLoader对象的loadClass方法加载类不会执行静态代码块。
+ * 2）可通过指定运行参数，查看类的加载顺序。
+ * -XX:+TraceClassLoading
  */
 class ClassA {
     static {
