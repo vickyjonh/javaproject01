@@ -2,7 +2,7 @@ package spring.config;
 
 import spring.annotation.ComponentScan;
 
-@ComponentScan("com.java.spring.service")
+@ComponentScan("spring.service")
 public class SpringConfig {
 
 }

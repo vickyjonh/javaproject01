@@ -18,7 +18,7 @@ import spring.vo.BeanDefinition;
 public class ClassPathXmlApplicationContext {
 	/**通过此map存储bean的实例*/
 	private Map<String,Object> instanceMap=new HashMap<>();
-	/**通过map存储配置文件中定义的bean对象的配置信息*/
+	/**通过此map存储配置文件中定义的bean对象的配置信息*/
 	private Map<String,BeanDefinition> beanMap=new HashMap<>();
 	public ClassPathXmlApplicationContext(String file)throws Exception {
 		//1.读取配置文件
