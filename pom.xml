@@ -41,6 +41,11 @@
             <artifactId>slf4j-api</artifactId>
             <version>1.7.25</version>
         </dependency>
+        <dependency>
+            <groupId>cglib</groupId>
+            <artifactId>cglib</artifactId>
+            <version>3.2.7</version>
+        </dependency>
 <!--
         假如想在maven项目中想对tomcat的源码进行快速分析，可先添加如下依赖，
         基于此依赖可借助maven对tomcat源码进行组织
