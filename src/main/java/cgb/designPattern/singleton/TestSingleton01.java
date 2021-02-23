@@ -1,4 +1,4 @@
-package cgb.singleton;
+package cgb.designPattern.singleton;
 import java.util.ArrayList;
 import java.util.List;
 /**
